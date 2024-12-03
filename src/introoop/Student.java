@@ -4,11 +4,13 @@ public class Student {
     protected String name;
     public int age;
     private int psp;
+    int roll ;
     public Student()
     {
         name = "new student";
         age = 20;
         psp = 100;
+        roll = 2;
     }
 
     void  attandance(){
@@ -24,3 +26,4 @@ public class Student {
         psp = pspval;
     }
 }
+
